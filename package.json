@@ -1,0 +1,17 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "tailwind course beginner",
+  "main": "./public/Index.html",
+  "scripts": {
+    "build": "tailwind -i ./src/Style.css -o ./public/Output.css -w"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "Yo Merengues",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
